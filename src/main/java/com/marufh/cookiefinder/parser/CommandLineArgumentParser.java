@@ -14,8 +14,8 @@ import java.time.LocalDate;
 @RequiredArgsConstructor
 public class CommandLineArgumentParser {
 
-    private static final String FILE_ARGUMENT = "f";
-    private static final String DATE_ARGUMENT = "d";
+    public static final String FILE_ARGUMENT = "f";
+    public static final String DATE_ARGUMENT = "d";
 
     private final CommandLineInputValidator commandLineInputValidator;
 

@@ -32,7 +32,7 @@ public class CsvLogFileParser implements LogFileParser {
         Map<String, Long> cookieCountMap = new HashMap<>();
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 
-            br.readLine(); // Skip header of cvs
+            br.readLine(); // Skip header of csv
             String line;
             while ((line = br.readLine()) != null) {
 
